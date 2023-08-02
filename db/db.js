@@ -1,6 +1,6 @@
 //db/db.js
-import knex from "knex";
-import knexFile from "../knexfile.js";
+const knex = require("knex");
+const knexFile = require("../knexfile.js");
 
 const environment = process.env.NODE_ENV || "development";
 
